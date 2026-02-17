@@ -1,10 +1,9 @@
 def calculate_total_bill(amount, tip_percentage):
     total = amount + (amount * tip_percentage / 100)
     return round(total, 2)
-amount=float(input('Enter the amount:'))
-tip_percentage=float(input('Enter the tip percentage:'))
-bill=calculate_total_bill(amount,tip_percentage)
-print('''\tOriginal amount:{}\n
-\ttip percentage::{}\n
-\tThe total bill(including tip):{}'''.format(amount,tip_percentage,bill))
+print(calculate_total_bill(100.0,15))
+print(calculate_total_bill(55.50,20 ))
+print(calculate_total_bill(200,0))
+print(calculate_total_bill(12.99,10))
+print(calculate_total_bill(0,15))
  
