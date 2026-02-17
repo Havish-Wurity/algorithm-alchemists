@@ -5,10 +5,3 @@ def average_passing_grades(grades):
         return 0   
     
     return sum(passing_grades) / len(passing_grades)
-students=int(input('Enter the number of students:'))
-l=[]
-for x in range(students):
-    x=int(input('Enter the grade:'))
-    l.append(x)
-print('The average of grades:',average_passing_grades(l)) 
-    
