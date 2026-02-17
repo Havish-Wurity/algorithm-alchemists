@@ -29,5 +29,3 @@ def calculate(expression):
 
     result = sum(stack)
     return round(float(result), 2)
-expression=input('enter the expression:')
-print('the result is:',calculate(expression))
